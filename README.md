@@ -54,19 +54,6 @@
 
 ---
 
-## 專案結構
-Garbage-truck-docx-report-generator/
-├── main.py
-├── main-pack.py
-├── license_mapping/
-│ └── 車牌對照表、輪胎規格表114.03.03.xlsx
-├── paddle_models/ # PaddleOCR 模型檔 (det/rec/cls)
-├── templates/
-│ ├── template_yellow.docx
-│ └── template_white.docx
-├── output/ # 報告輸出資料夾
-└── README.md
-
 ## 相依套件
 text
 paddleocr
