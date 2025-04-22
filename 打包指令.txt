@@ -1,0 +1,22 @@
+pyinstaller --onefile `
+   --collect-all paddleocr `
+   --collect-all paddle `
+   --collect-binaries paddle `
+   --collect-all requests `
+   --collect-all Cython `
+   --collect-all python-docx `
+   --hidden-import docx.opc `
+   --hidden-import docx.oxml `
+   --hidden-import docx.image.image `
+   --hidden-import=PIL._imagingtk `
+   --hidden-import=PIL._imaging `
+   --collect-binaries lxml `
+   --collect-all Pillow `
+   --add-data "templates;templates" `
+   --add-data "license_mapping;license_mapping" `
+   --add-data "paddle_models;paddle_models" `
+   --hidden-import=PIL.PngImagePlugin `
+   --hidden-import=PIL.JpegImagePlugin `
+   --hidden-import=PIL.BmpImagePlugin `
+   --hidden-import=PIL.TiffImagePlugin `
+   main-pack.py
