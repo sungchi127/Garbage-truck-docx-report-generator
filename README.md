@@ -45,8 +45,7 @@
   ```bash
   python main-pack.py
   ```
-![image](https://github.com/user-attachments/assets/52d81163-42e8-4412-a9c2-77794036df61)
-
+![image](https://github.com/user-attachments/assets/26c28896-efef-4c78-bab9-fa3d83afb0c8)
 1. 點擊「選擇圖片」按鈕並挑選欲辨識之圖片  
 2. 左側顯示圖片預覽，並自動觸發 OCR  
 3. 右側文字框可滾動檢視辨識結果  
